@@ -3,7 +3,7 @@ from math import sqrt
 
 def main():
     enter_square = input("Enter what square you want: ")
-    if "rect" in enter_square :
+    if "rect" in enter_square:
         def square_rectangle():
             """
             this function square_rectangle
@@ -40,8 +40,8 @@ def main():
             :return: s
             """
             r = int(input("Enter radius: "))
-            P = 3.14
-            s = P * (r ** 2)
+            PI = 3.14
+            s = PI * (r ** 2)
             return s
         print("Square_circle =", square_circle())
 
